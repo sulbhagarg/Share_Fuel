@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/leaderboard"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/nav_weekly_challanges"
+            android:icon="@drawable/weekly_challenges"
+            android:title="Weekly Challenges" />
+        <item
+            android:id="@+id/nav_community_forum"
+            android:icon="@drawable/community_forum"
+            android:title="Community Forum" />
+    </group>
+</menu>
